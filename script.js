@@ -14,7 +14,7 @@ musicBtn?.addEventListener('click', () => {
   musicBtn.textContent = musicBtn.classList.contains('playing') ? '♫' : '♪';
 });
 
-const birthdayDate = new Date('2026-09-25T00:00:00').getTime();
+const birthdayDate = new Date('2027-09-25T00:00:00').getTime();
 function updateCountdown() {
   const countdown = $('#countdown');
   if (!countdown) return;
